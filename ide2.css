@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+body {
+  margin:0;
+  padding:0;
+  font-family: 'Arimo', sans-serif;
+}
+
+section#flex {
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+header {
+  border-right:2px solid black;
+  height: 100vh;
+  width: 20vw;
+  background-color: white;
+  margin:0;
+
+}
+
+header nav {
+  display:flex;
+  flex-direction:column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+a#version, a#linkt {
+  color:black;
+}
+
+
+
+img#head {
+  width:200px;
+  height: 250px;
+}
+
+header nav ul li a {
+  font-size:18px;
+  text-decoration:none;
+  color:black;
+  padding-right:20px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+
+header nav ul li a:hover {
+  background-color:black;
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
+  color:white;
+}
+
+ul {
+  list-style-type:none;
+  width: 200px;
+  margin-top:50px;
+}
+
+ul li {
+  padding-top:10px;
+  padding-bottom:10px;
+  align-content:center;
+
+}
+
+img.bkmk {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+}
+
+main {
+  background-image:url(https://notepad-plus-plus.org/images/logo.svg);
+  background-color: rgba(255,255,255,0.8);
+  background-blend-mode: lighten;
+  background-position: center;
+  background-repeat:no-repeat;
+  margin-top:10px;
+  margin-bottom:10px;
+  padding-left:80px;
+}
+
+h1 {
+  font-size:35px;
+}
+
+p {
+  font-size:20px;
+  width: 1000px;
+}
+
+img#main {
+  margin-top:40px;
+  margin-left:30px;
+}
+
+a#download {
+  margin-left:100px;
+  padding:20px;
+  font-size:20px;
+  background-color:rgba(150,200,100,1);
+  border-radius:10px;
+  color:white;
+  text-decoration:none;
+}
+
+a#download:hover {
+  color:black;
+  background-color:lightgreen;
+}
+
+footer {
+  border-top:2px solid black;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items:center;
+}
+
+h2 {
+  font-size:40px;
+}
+
+li#name {
+  font-size:25px;
+}
+
+li {
+  font-size:20px;
+}
+
+li a.link {
+  color:black;
+}
+
+section#sflex {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
